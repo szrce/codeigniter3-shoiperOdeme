@@ -25,7 +25,7 @@ class TestPayment {
       $this->shopier =  new Shopier('null','null');
     }
 
-    public function setpayment(Array $productSeller, Array $productSellerAddr , String $pid , string $p_price, Array $productname){
+    public function setpayment(Array $productSeller, Array $productSellerAddr , String $pid , string $p_price, String $productname){
             // Satın alan kişi bilgileri
       $buyer = new Buyer($productSeller);
       $address = new Address($productSellerAddr);
